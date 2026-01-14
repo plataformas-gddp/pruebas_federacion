@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/342a159c-8201-4a48-ae68-8e51055f9f48">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:title xml:lang="en">ejemplo tres</dct:title>
+    <dct:title xml:lang="es">ejemplo tres</dct:title>
+    <dct:description xml:lang="en">ejemplo tres descripcion</dct:description>
+    <dct:description xml:lang="es">ejemplo tres dezcripcion</dct:description>
+    <dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/342a159c-8201-4a48-ae68-8e51055f9f48"/>
+    <dct:identifier>ejemplo-tress</dct:identifier>
+    <dcat:keyword xml:lang="es">servdatos</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-13T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-12T00:00:00+00:00</dct:issued>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/cp"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/rs"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/bu"/>
+    <dct:license>
+      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
+      </rdf:Description>
+    </dct:license>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/342a159c-8201-4a48-ae68-8e51055f9f48/resource/4441212f-e2a1-4852-89ee-7b22cd900a5d">
+        <dct:title xml:lang="en">distro ejemplo tres</dct:title>
+        <dct:title xml:lang="es">distro ejemplo tres</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+        <dcat:accessURL rdf:resource="https://172.17.8.173:8443/dataset/342a159c-8201-4a48-ae68-8e51055f9f48/resource/4441212f-e2a1-4852-89ee-7b22cd900a5d"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-13T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-13T00:00:00+00:00</dct:issued>
+        <dct:accessRights rdf:resource="texto libre"/>
+        <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+    <adms:identifier>
+      <adms:Identifier rdf:nodeID="Nfc40b7be4b5a43cb9150d95fabd2ffa9">
+        <skos:notation>{'comment': '', 'dat_creacion_identifier': '', 'doc_identifier': [], 'format_identifier': '', 'identifier_uri': '', 'notation': '', 'standard': ''}</skos:notation>
+      </adms:Identifier>
+    </adms:identifier>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000">
+        <foaf:name xml:lang="es">Organismo publicador del Catálogo</foaf:name>
+        <foaf:mbox>organismo@example.org</foaf:mbox>
+        <foaf:homepage rdf:resource="https://organismo.example.org/"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NonProfitOrganisation"/>
+        <dct:identifier>EA0000000</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+  </dcat:Dataset>
+</rdf:RDF>
